@@ -1,0 +1,27 @@
+name: Check public translations
+
+on:
+  push:
+    paths:
+      - "translations/**"
+      - "scripts/validate_translations.py"
+      - ".github/workflows/check-translations.yml"
+  pull_request:
+    paths:
+      - "translations/**"
+      - "scripts/validate_translations.py"
+  workflow_dispatch:
+  schedule:
+    - cron: "13 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify localized texts (no external APIs)
+        run: python3 scripts/validate_translations.py
