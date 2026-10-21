@@ -1,0 +1,23 @@
+EYLAB PUBLIC INTERFACE TRANSLATIONS — RIGHTS NOTICE
+Copyright © 2026 EYLab. All rights reserved.
+
+This repository contains only public-facing textual labels, translations,
+and a limited translation validation workflow.
+
+No permission is granted by this notice to copy, adapt, redistribute,
+sublicense, sell, or commercially integrate any copyright-protected
+original material contained here, except where mandatory law permits.
+Contact the rights holder through https://eylab.ru/ to request written
+permission or a commercial license.
+
+Public visibility on GitHub does not make the project open source.
+GitHub users may view and fork this repository as permitted by GitHub's
+Terms of Service. This notice does not restrict rights granted by GitHub's
+Terms or applicable law.
+
+Single words, short phrases, generic factual terminology, and other
+unprotectable elements are not claimed as exclusive intellectual property.
+This notice does not override third-party rights.
+
+Any third-party libraries used in a separate EYLab product remain governed
+by their own licenses; they are not included in this repository.
